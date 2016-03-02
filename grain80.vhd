@@ -1,11 +1,9 @@
 ------------------------------------------------------------------------
 -- MODULE: GRAIN80
 --
--- DESCRIPTION: Stream Cipher Grain 80 (Synthesizable)
+-- DESCRIPTION: Stream Cipher Grain 80 (Synthesizable code)
 --
 -- LANGUAGE: VHDL-93
---
--- DEPENDENCIES: None
 --
 -- CREATED: Oct 2009
 --
@@ -25,7 +23,7 @@ use IEEE.std_logic_unsigned.all;
 
 entity GRAIN80 is
     generic (
-        N : integer:=80;  -- LFSR size
+        N : integer := 80;  -- LFSR size
     );
     port (
         clk   : in  std_logic;
